@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:p1="http://schemas.android.com/apk/res/android"
+    p1:layout_width="match_parent"
+    p1:layout_height="match_parent"
+    p1:id="@+id/tableLayout1"
+    p1:stretchColumns="*">
+    <TableRow
+        p1:id="@+id/tableRow1"
+        p1:layout_height="match_parent"
+        p1:minWidth="25px"
+        p1:minHeight="25px">
+        <EditText
+            p1:inputType="numberSigned"
+            p1:id="@+id/editText1"
+            p1:layout_span="4" />
+    </TableRow>
+    <TableRow
+        p1:id="@+id/tableRow2">
+        <Button
+            p1:text="1"
+            p1:layout_column="0"
+            p1:id="@+id/button1" />
+        <Button
+            p1:text="2"
+            p1:layout_column="1"
+            p1:id="@+id/button2" />
+        <Button
+            p1:text="3"
+            p1:layout_column="2"
+            p1:id="@+id/button3" />
+        <Button
+            p1:text="-"
+            p1:layout_column="3"
+            p1:id="@+id/button13" />
+    </TableRow>
+    <TableRow
+        p1:id="@+id/tableRow3">
+        <Button
+            p1:text="4"
+            p1:layout_column="0"
+            p1:id="@+id/button4" />
+        <Button
+            p1:text="5"
+            p1:layout_column="1"
+            p1:id="@+id/button5" />
+        <Button
+            p1:text="6"
+            p1:layout_column="2"
+            p1:id="@+id/button6" />
+        <Button
+            p1:text="+"
+            p1:layout_column="3"
+            p1:id="@+id/button14" />
+    </TableRow>
+    <TableRow
+        p1:id="@+id/tableRow4">
+        <Button
+            p1:text="7"
+            p1:layout_column="0"
+            p1:id="@+id/button7" />
+        <Button
+            p1:text="8"
+            p1:layout_column="1"
+            p1:id="@+id/button8" />
+        <Button
+            p1:text="9"
+            p1:layout_column="2"
+            p1:id="@+id/button9" />
+        <Button
+            p1:text="*"
+            p1:layout_column="3"
+            p1:id="@+id/button15" />
+    </TableRow>
+    <TableRow
+        p1:id="@+id/tableRow5">
+        <Button
+            p1:text="."
+            p1:layout_column="0"
+            p1:id="@+id/button10" />
+        <Button
+            p1:text="0"
+            p1:layout_column="1"
+            p1:id="@+id/button11" />
+        <Button
+            p1:text="CE"
+            p1:layout_column="2"
+            p1:id="@+id/button12" />
+        <Button
+            p1:text="="
+            p1:layout_column="3"
+            p1:id="@+id/button16" />
+    </TableRow>
+</TableLayout>
